@@ -39,9 +39,13 @@ tar -xzvf ZeroDark.tar.gz -C ~/
 rm ZeroDark.tar.gz
 ```
 
+## Go to File directory
+```
+cd ZeroDark
+```
 ## Server Setup
 ```
-bash ZeroDark/setup.sh
+bash setup.sh
 ```
 
 ## Password Change Type
@@ -55,10 +59,11 @@ admin0
 
 ## When copy and paste the code below won't work 
 
-## Goto File directory
+## Go to File directory
 ```
 cd ZeroDark/server
 ```
+Npm install All working `npm install`
 ## Run server 
 ```
 node index.js
