@@ -1,5 +1,4 @@
-### <p align="center"><h1>▶️[YouTube Demo Video](https://youtu.be/XKAEIqOCNoY)</h1>
-</p>
+### <h1 align="center">▶️[YouTube Demo Video](https://youtu.be/XKAEIqOCNoY)</h1>
 
 ## Features
 - Screenshot Capture
@@ -22,33 +21,40 @@
 - Command Queuing
 - Built In APK Builder
 
-### For Termux Users
- ```
-1. pkg install wget && apt install nodejs
+### For Termux Users Kali Linux
+ 
+1. ## Copy and paste 
+```
+pkg install wget && apt install nodejs
 ```
 
-2. ```
+2. ## Copy and Termux paste 
+```
  wget https://github.com/Master-xyx/Zerodark-Nexus/raw/refs/heads/main/ZeroDark.tar.gz
  ```
 
-3. Copy and paste
+3. ## Copy and past
 ```
 tar -xzvf ZeroDark.tar.gz -C ~/
 rm ZeroDark.tar.gz
 ```
-3. Goto File directory ```
+3. ## Goto File directory
+```
 cd ZeroDark
 ```
 
-4. Server Setup ```
+4. ## Server Setup
+```
 bash setup.sh
 ```
 
-5. Password Change Type ```
+5. ## Password Change Type
+```
 pass0
 ```
 
-6. Run server ```
+6. ## Run server
+```
 admin0
 ```
 
