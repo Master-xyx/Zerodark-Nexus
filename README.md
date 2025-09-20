@@ -23,23 +23,36 @@
 - Built In APK Builder
 
 ### For Termux Users
-0. ```pkg install wget && apt install nodejs```
+ ```
+1. pkg install wget && apt install nodejs
+```
 
-1. ```wget https://github.com/Master-xyx/Zerodark-Nexus/raw/refs/heads/main/ZeroDark.tar.gz```
+2. ```
+ wget https://github.com/Master-xyx/Zerodark-Nexus/raw/refs/heads/main/ZeroDark.tar.gz
+ ```
 
-2. Copy and paste```
+3. Copy and paste
+```
 tar -xzvf ZeroDark.tar.gz -C ~/
 rm ZeroDark.tar.gz
 ```
-3. Goto File directory ```cd ZeroDark```
+3. Goto File directory ```
+cd ZeroDark
+```
 
-4. Server Setup ```bash setup.sh```
+4. Server Setup ```
+bash setup.sh
+```
 
-5. Password Change Type ```pass0```
+5. Password Change Type ```
+pass0
+```
 
-6. Run server ```admin0```
+6. Run server ```
+admin0
+```
 
-7. In your browser navigate to `http://<SERVER IP>:22533` & Login with default username and password ( By default server will run on localhost and to make a client APP you can use [PORTMAP.io](https://portmap.io) to access APP on wide area network , check below for demo to setup zerodark with PORTMAP.)
+9. In your browser navigate to `http://<SERVER IP>:22533` & Login with default username and password ( By default server will run on localhost and to make a client APP you can use [PORTMAP.io](https://portmap.io) to access APP on wide area network , check below for demo to setup zerodark with PORTMAP.)
 
 ## Thanks
  - Inspiration for the project and the basic building blocks for the Android App are based off [L3MON](https://github.com/h2d-manyaa/L3MON-R4T.git) 
