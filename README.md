@@ -50,7 +50,7 @@ bash setup.sh
 
 ## Password Change Type
 ```
-pass0
+bash pass
 ```
 ## Run server
 ```
